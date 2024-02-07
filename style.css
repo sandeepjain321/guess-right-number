@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(247, 193, 187);
+}
+
+label {
+  color: aliceblue;
+  text-align: center;
+  padding: 4px;
+  margin-bottom: 5px;
+}
+
+.container {
+  background-color: rgba(136, 90, 90);
+  width: 200px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+input {
+  margin: 15px;
+  border-radius: 5px;
+  padding: 2px;
+  border: none;
+}
